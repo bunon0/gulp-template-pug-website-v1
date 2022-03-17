@@ -1,0 +1,9 @@
+@use "../global/" as g;
+
+.p-test {
+  background-image: url("../images/cat.png");
+  max-width: 600px;
+  height: 600px;
+  background-size: cover;
+  background-position: center right;
+}

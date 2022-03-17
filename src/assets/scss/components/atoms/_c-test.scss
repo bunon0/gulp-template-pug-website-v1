@@ -1,0 +1,10 @@
+@use "../../global/" as g;
+
+.c-test {
+  text-align: center;
+  padding: g.rem(100) 0;
+  margin: 100px 0;
+  color: white;
+  background-color: #fa8072;
+  font-size: 50px;
+}

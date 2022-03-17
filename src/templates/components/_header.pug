@@ -1,0 +1,18 @@
+//- 配列のオブジェクト
+-
+  const menus = [
+    {
+    name: "トップ",
+    url: `${path}/index.html`
+    },
+    {
+    name: "アバウト",
+    url: `${path}/about.html`
+    },
+  ];
+
+header.l-header
+  p.l-header__title #{pageTitle}
+  nav
+    each menu in menus
+      a.l-header__link(href=`${menu.url}`) #{menu.name}

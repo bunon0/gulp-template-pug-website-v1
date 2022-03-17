@@ -1,0 +1,18 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true
+  },
+  "cSpell.ignorePaths": [
+    "**/package.json",
+    "**/package-lock.json",
+    "**/yarn.lock",
+    "**/node_modules/**",
+    "**/webpack.config.js",
+    ".vscode",
+    "src/js/libs",
+    "src/scss/libs"
+  ]
+}

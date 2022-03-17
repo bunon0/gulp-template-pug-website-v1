@@ -1,0 +1,20 @@
+// ブレイクポイント
+$xs: 375px; // spサイズ
+$sm: 576px;
+$md: 768px; // tabサイズ
+$lg: 992px;
+$xl: 1200px; // pcサイズ
+$xxl: 1400px;
+$breakpoints: (
+  "xs": "(min-width: #{$xs})",
+  "sm": "(min-width: #{$sm})",
+  "md": "(min-width: #{$md})",
+  "lg": "(min-width: #{$lg})",
+  "xl": "(min-width: #{$xl})",
+  "xxl": "(min-width: #{$xxl})",
+);
+
+// z-index
+$layer: (
+  "header": "",
+);
